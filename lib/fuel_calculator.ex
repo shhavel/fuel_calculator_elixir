@@ -10,7 +10,7 @@ defmodule FuelCalculator do
 
   ## Examples
 
-      iex> FuelCalculator.call(28801,  [{:launch, "earth"}, {:land, "moon"}, {:launch, "moon"}, {:land, "earth"}])
+      iex> FuelCalculator.call(28801, [{:launch, "earth"}, {:land, "moon"}, {:launch, "moon"}, {:land, "earth"}])
       51898
 
   """
