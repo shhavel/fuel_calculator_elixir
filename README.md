@@ -23,7 +23,7 @@ The mission should start with launching and end with landing, — we should not 
 
 ## CLI Installation
 
-To create the executable command file, run `mix escript.build`. This overrides file `./fuel_calculator`. Create an alias in your bash profile file or a symlink to make the command globally available.
+To create the executable command file, run `mix escript.build`. This overrides file `./fuel_calculator`. Create an alias in your bash profile file or a symlink to make the command globally available. For example, to create a symlink to `usr/local/bin` run `ln -s $(pwd)/fuel_calculator /usr/local/bin`
 
 ## CLI Usage
 
@@ -42,4 +42,4 @@ https://bats-core.readthedocs.io/en/stable/installation.html
 
 ## Uninstall CLI
 
-Remove the alias or symlink.
+Remove the alias or symlink. For example, to remove symlink run `rm /usr/local/bin/fuel_calculator`
